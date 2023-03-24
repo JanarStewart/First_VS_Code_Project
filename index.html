@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css" 
+    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" 
+    crossorigin="anonymous">
+    <title>First VS Code Website</title>
+</head>
+<body>
+
+    <!--header-->
+    <header>
+        <h1>Three Best National Parks In Washington</h1>
+        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#features">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#prices">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#subscribe">Subscribe</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+    </header> 
+    <!--end of header-->
+
+    <!--main content-->
+    <main>
+        <!--Features of the parks-->
+        <section id="features">
+            <h2>Rainier National Park</h2>
+            <img src="resources/images/mt-rainier-natl-park.jpeg">
+        </section>
+
+        <section>
+            <h2>North Cascades National Park</h2>
+            <img src="resources/images/north-cascades.jpg" width="550" height="500">
+        </section>
+
+        <section>
+            <h2>Olympic National Park</h2>
+            <img src="resources/images/olympic-national-park.jpg" width="550" height="500">
+        </section>
+
+        <br>
+        <br>
+
+        <!--Cards with pricing-->
+        <section id="prices">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <img src="resources/images/mt-rainier-natl-park.jpeg" width="200" height="180" 
+                    class="card-img-top" alt="mountain, trees and flowers">
+                    <h2 class="card-title">Rainier National Park</h2>
+                    <h6 class="card-subtitle mb-2 text-muted">Admission $25</h6>
+                </div>
+            </div>
+            
+            <div class="card" style="width: 18rem;">
+                <img src="resources/images/north-cascades.jpg" 
+                        width="200" height="180" class="card-img-top" alt="mountain, trees and lake">
+                <div class="card-body">
+                    <h2 class="card-text">North Cascades National Park</h2>
+                    <p class="card-text">Free</p>
+                </div>
+            </div>
+            
+            <div class="card" style="width: 18rem;">
+                <img src="resources/images/olympic-national-park.jpg" 
+                        width="200" height="180" class="card-img-top" alt="beach view through trees">
+                <div class="card-body">
+                    <h2 class="card-text">Olympic National Park</h2>
+                    <p class="card-text">Free</p>
+                </div>
+            </div>
+        </section>
+
+        <br>
+        <br>
+
+        <section id="subscribe">
+            <form>
+                <h3>Subscribe For More Information:</h3>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </section>
+
+    </main>
+
+    <!--footer-->
+    <footer>
+
+    </footer>
+    
+</body>
+</html>
